@@ -1,1 +1,1 @@
-# cognito-auth-service
+# Authentication service leveraging aws cognito `WIP`
