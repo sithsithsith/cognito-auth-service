@@ -3,9 +3,9 @@ package app
 import (
 	"net/http"
 
-	"github.com/sithsithsith/cognito-auth-service/internal/config"
-	"github.com/sithsithsith/cognito-auth-service/internal/handlers"
-	"github.com/sithsithsith/cognito-auth-service/internal/services"
+	"github.com/sithsithsith/mugi-cognito/internal/config"
+	"github.com/sithsithsith/mugi-cognito/internal/handlers"
+	"github.com/sithsithsith/mugi-cognito/internal/services"
 )
 
 type App struct {

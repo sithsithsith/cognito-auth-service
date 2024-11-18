@@ -15,3 +15,18 @@ func RespondWithJSON(w http.ResponseWriter, code int, payload interface{}) {
 	w.WriteHeader(code)
 	w.Write(response)
 }
+
+func LambdaErrorResponse(err error) map[string]interface{} {
+	return map[string]interface{}{
+		"statusCode": 500,
+		"body":       err.Error(),
+	}
+}
+
+func LambdaSuccessResponse(payload interface{}) map[string]interface{} {
+	body, _ := json.Marshal(payload)
+	return map[string]interface{}{
+		"statusCode": 200,
+		"body":       string(body),
+	}
+}

@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/sithsithsith/cognito-auth-service/internal/app"
-	"github.com/sithsithsith/cognito-auth-service/pkg/logger"
+	"github.com/sithsithsith/mugi-cognito/internal/app"
+	"github.com/sithsithsith/mugi-cognito/pkg/logger"
 )
 
 func main() {

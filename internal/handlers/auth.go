@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/sithsithsith/cognito-auth-service/internal/services"
-	"github.com/sithsithsith/cognito-auth-service/internal/utils"
+	"github.com/sithsithsith/mugi-cognito/internal/services"
+	"github.com/sithsithsith/mugi-cognito/internal/utils"
 )
 
 type AuthHandler struct {
